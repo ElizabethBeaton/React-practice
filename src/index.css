@@ -1,0 +1,327 @@
+.card {
+  border: 2px solid pink;
+  padding: 10px;
+  box-shadow: 5pc, 5pc, 5pc hsla(0, 0% 0%, 0.1);
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card-img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+
+
+}
+.card .card-title{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+}
+.card .card-text {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: blue;
+}
+
+
+
+
+.student {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  padding: 10px;
+  border: 1px solid greenyellow;
+  margin: 30px;
+
+}
+
+.student p{
+  margin: 0;
+}
+
+.welcome-message {
+  font-size: 2.5em;
+  background-color: chartreuse;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.login-prompt {
+  font-size: 2.5em;
+  background-color:brown;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.list-category {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: rgb(21, 57, 122);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: rgb(92, 99, 117);
+}
+
+.list-items li{
+  font-size: 2em;
+  list-style: none;
+  color: blue;
+  text-align: center;
+  margin: 0;
+}
+.list-items li:hover {
+  color: rgb(0, 139, 30);
+  cursor: pointer;
+}
+
+.profile-picture {
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.counter-container {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.count-display {
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.counter-button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 5px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.counter-button:hover {
+  background-color: cornflowerblue;
+}
+
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-heading {
+margin: 50px;
+font-size: 3rem;
+}
+.color-display {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid hsl(0, 0%, 80%);
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.25s ease;
+}
+
+.color-display p {
+  color: hsl(0, 0%, 20%);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.label-color {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.input-color[type="color"] {
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid hsl(0, 0%, 80%);
+}
+
+
+.to-do-list {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  background-color: rgb(53, 58, 56);
+  padding-top: 20px;
+}
+
+.to-go-heading {
+  font-size: 4rem;
+  color: white;
+}
+
+.to-do-btn {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.add-button {
+  background-color: greenyellow;
+}
+
+.add-button:hover {
+  background-color: rgb(67, 105, 10);
+}
+
+.delete-button {
+  background-color: rgb(224, 57, 57);
+}
+
+.delete-button:hover {
+  background-color: rgb(126, 35, 17);
+}
+.move-button {
+  background-color: rgb(84, 136, 241);
+}
+
+.move-button:hover {
+  background-color: rgb(16, 14, 97);
+}
+.to-do-input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid palevioletred;
+  border-radius: 5px;
+  color: blueviolet;
+}
+.to-do-ol {
+  padding: 0;
+}
+.to-do-ol li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: rgb(239, 237, 232);
+  margin-bottom: 10px;
+  border: 3px solid purple;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.text {
+  flex: 1;
+}
+.delete-button, .move-button {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
+.clock-body {
+  min-height: 100vh; /* ✅ takes up the full viewport height */
+  background-image: url(assets/mountains.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+
+.clock-container {
+  backdrop-filter: blur(5px);
+  width: 100vw;
+  padding: 10px 0;
+  
+}
+
+.clock {
+    color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-shadow: 3px 3px 5px black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.box {
+  border: 3px solid;
+  padding: 25px;
+}
+
+.stopwatch-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(141, 170, 195);
+}
+.stopwatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  border-radius: 50px;
+  background-color: white;
+  padding: 30px;
+  margin: 20px 0px;
+}
+.display {
+  font-size: 5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: hotpink;
+  text-shadow: 2px 2px 2px purple;
+  margin-bottom: 25px;
+}
+.controls button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.5s ease;
+}
+
+.start-button {
+  background-color: pink;
+}
+.start-button:hover {
+  background-color: rgb(184, 114, 126);
+}  
+.stop-button {
+  background-color: rgb(215, 42, 70);
+}
+.stop-button:hover {
+  background-color: rgb(145, 31, 50);
+}  
+.reset-button {
+  background-color: rgb(107, 50, 59);
+}
+.reset-button:hover {
+  background-color: rgb(95, 83, 85);
+}  
